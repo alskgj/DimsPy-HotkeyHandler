@@ -26,7 +26,6 @@ HOTKEY_ACTIONS = {
     1: handle_win_f3,
     2: handle_win_f4
 }
-print('test')
  
 for id_, (vk, modifiers) in HOTKEYS.items():
     print('Registering id', id_, 'for key', vk)
